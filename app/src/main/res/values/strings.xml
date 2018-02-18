@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Hospital Directory</string>
+
+    <string name="hospital_no1">Chittagong Medical College and Hospital</string>
+    <string name="cell_1">Cell: +88-031-619400 </string>
+    <string name="Address_1">Address: 57, K.B. FAZLUL KADER ROAD, P.S- PANCHLAISH, P.O- CHAWKBAZAR, Chittagong 4203</string>
+
+    <string name="hospital_no2">MAX Hospital</string>
+    <string name="cell_2">Cell: +880 31-622519
+ </string>
+    <string name="Address_2">Address: 35/36 Mehidibag Rd, Chittagong</string>
+
+
+    <string name="hospital_no3">Univetsity of Science and Technology College
+</string>
+    <string name="cell_3">Cell :+88-02-8614959 </string>
+    <string name="Address_3">Address :Zakir Hossain Rd, Chittagong</string>
+
+    <string name="hospital_no4">Royel Hospital
+</string>
+    <string name="cell_4">Cell: 031-623713 </string>
+    <string name="Address_4">Address: O.R. Nizam Rd, Chittagong</string>
+
+
+    <string name="hospital_no5">Metropoliton Hospital</string>
+    <string name="cell_5">Cell: 031-651242 </string>8
+    <string name="Address_5">Address: O.R. Nizam Rd, Chittagong</string>
+</resources>

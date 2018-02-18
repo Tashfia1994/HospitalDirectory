@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.tashfia.hospitaldirectory.HomeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layout5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/layout4"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_metropoliton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Metropoliton Hospital"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/layout3"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_cmc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Chittagong Hospital"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/layout2"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_royel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Royel Hospital"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/layout1"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_ustc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="USTC"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_max"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Max Hospital"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="25sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
